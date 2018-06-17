@@ -79,6 +79,8 @@ tractarText = function(text) {
 
   function arreglarData(datap) {
     if (datap[0].length < 2) {
+        // L'Ivan ho peta molt
+        console.log("Però el Marc més");
       datap[0] = "0" + datap[0];
     }
     if (datap[1].length < 2) {
